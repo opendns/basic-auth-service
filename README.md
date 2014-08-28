@@ -6,7 +6,7 @@ NodeJS makes creating a Basic authentication service a breeze. All we need to do
 ubuntu@trusty-64:/basic-auth# apt-get install apache2-utils
 ubuntu@trusty-64:/basic-auth# htpasswd -b -c super_secrets testuser testpassword
 ```
-The code required to make this app work is tiny thanks to the http-auth module:
+The code required to make this app work is tiny thanks to the http-auth module and can be found in https://github.com/opendns/basic-auth-service/blob/master/server.js
 
 Now run and test the app:
 ```
