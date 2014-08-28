@@ -1,6 +1,8 @@
 Simple basic authentication service
 ===================================
 
+**This service as-is should not be used in production and is made available as a reference to building an authentication proxy to secure a private docker registry.**
+
 NodeJS makes creating a Basic authentication service a breeze. All we need to do is to create a file containing our credentials using the htpasswd utility:
 ```
 ubuntu@trusty-64:/basic-auth# apt-get install apache2-utils
